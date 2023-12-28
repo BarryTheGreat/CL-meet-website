@@ -13,4 +13,8 @@ btn.addEventListener('click',()=>{
   btn.style.left = Math.floor(Math.random()*(maxWidth+1)) + 'px';
   btn.style.top = Math.floor(Math.random()* (maxHeight +1)) + 'px'
 })
+btn.addEventListener('mouseover',()=>{
+  btn.style.left = Math.floor(Math.random()*(maxWidth+1)) + 'px';
+  btn.style.top = Math.floor(Math.random()* (maxHeight +1)) + 'px'
+})
 })
