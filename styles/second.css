@@ -24,7 +24,7 @@ body{
   margin-bottom: 20px;
 }
 button{
-  width: 160px;
+  width: 532px;
   height: 110px;
   border-radius: 20px;
   color: whitesmoke;
@@ -49,6 +49,6 @@ button:active{
 }
 
 .fix_date{
-  margin-right: 310px;
+  margin-left: 2px;
 }
 
