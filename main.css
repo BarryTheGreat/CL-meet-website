@@ -1,0 +1,59 @@
+body{
+  background-image: linear-gradient(45deg, rgb(80, 0, 217),rgb(85, 178, 255));
+  overflow: hidden;
+}
+
+.main{
+  text-align: center;
+  margin-top: 10%;
+  height: 100vh;
+}
+
+.text{
+  font-size: 65px;
+  font-family: 'Share Tech Mono';
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: whitesmoke;
+}
+
+.dance_bot{
+  width: 480px;
+  height: 480px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+button{
+  width: 160px;
+  height: 110px;
+  border-radius: 20px;
+  color: whitesmoke;
+  border: 0px;
+  box-shadow: -2px 8px 6px rgba(0,0,0,1);
+  padding-left: 18px;
+  font-family: "Share Tech Mono";
+  font-size: 45px;
+  background-color: rgb(32, 181, 255);
+  transition: 200ms;
+}
+
+button:hover{
+  scale: 120%;
+  transition: 200ms;
+  
+}
+
+button:active{
+  scale: 100%;
+  background-color: rgba(222, 233, 245, 0.616);
+}
+
+.yes{
+  margin-right: 310px;
+}
+
+#moving{
+  position: absolute;
+  top: 786px;
+  left: 1080px;
+}
